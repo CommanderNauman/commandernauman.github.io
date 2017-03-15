@@ -1,5 +1,7 @@
 * { margin: 0; padding: 0; }
 
+canvas { width: 100%; height: 100%; }
+
 body 
 {
 	/*height: 100%;*/
@@ -7,8 +9,18 @@ body
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 	display: block;
-	background-color: black;
+	background: radial-gradient(ellipse at center, #003251 0%,#000000 100%);
 	color:white;
+}
+
+a
+{
+    background-color: #00A1FF;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
 }
 
 section
@@ -20,19 +32,24 @@ section
 
 h1 
 {
-	color:red;
-	letter-spacing: 0.75em;
+	color: #00A1FF;
+	font-weight: bold;
+	letter-spacing: 0.25em;
 	font-size: 3em;
 }
 
 h2
 {
 	margin: 2% auto;
+	font-weight: normal;
 }
 
-#Entrance
+#EntranceTextBottom
 {
-	
+	margin-left: 5%;
+	margin-top: 30%;
+	margin-bottom: 5%;
+	display: block;
 }
 
 #EntranceText
@@ -40,20 +57,4 @@ h2
 	margin-left: 5%;
 	margin-top: 5%;
 	display: block;
-}
-
-#Tsim
-{
-	/*002333*/
-	background-color: #002333;
-}
-
-#Mosi
-{
-	background-color: #5f259f;
-}
-
-#Connect
-{
-	height: 50vh;
 }
