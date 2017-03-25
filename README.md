@@ -1,2 +1,2 @@
 # stephennauman.github.io
-Portfolio Website
+Welcome to my portfolio's GitHub repository
