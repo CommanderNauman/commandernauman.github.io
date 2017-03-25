@@ -4,23 +4,30 @@ canvas { width: 100%; height: 100%; }
 
 body 
 {
-	/*height: 100%;*/
 	height:100vh;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-family: 'Roboto', sans-serif;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	display: block;
-	background: radial-gradient(ellipse at center, #003251 0%,#000000 100%);
-	color:white;
+	background-color: black;
+	/*background: radial-gradient(ellipse at center, #003251 0%,#000000 100%);*/
+	color:#E30F0F;
+	text-align: center;
+	margin: 30px;
 }
 
 a
 {
-    background-color: #00A1FF;
-    color: white;
+    background-color: #E30F0F;
+    color: black;
+    font-family: Roboto-BoldCondensed;
+	font-size: 36px;    
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    width:160px;
+    margin: 20px 20px;
 }
 
 section
@@ -30,31 +37,104 @@ section
 	/*height:100vh;*/
 }
 
-h1 
+h1
 {
-	color: #00A1FF;
-	font-weight: bold;
-	letter-spacing: 0.25em;
-	font-size: 3em;
+	font-weight: 300;
+	font-size: 87px;
+	color: #E30F0F;
+	text-shadow: 0 0 16px rgba(255,0,0,0.81);
+	/*margin: 20px;*/
 }
 
 h2
 {
-	margin: 2% auto;
-	font-weight: normal;
+	font-weight: 300;
+	font-size: 40px;
+	color: #FFFFFF;
+	margin: 30px;
 }
 
-#EntranceTextBottom
+.SquareRow
 {
-	margin-left: 5%;
-	margin-top: 30%;
-	margin-bottom: 5%;
-	display: block;
+	width: 100%;
+	display: inline-block;
 }
 
-#EntranceText
+.square 
 {
-	margin-left: 5%;
-	margin-top: 5%;
-	display: block;
+	width: 20px;
+	height: 20px;
+	background: red;
 }
+
+.Icon
+{
+	width: 40px;
+	height: 40px;
+	/*margin: 10px 3px 10px 3px;*/
+	margin: auto;
+	float: center;
+}
+
+#Index
+{
+	display: inline-block;
+    vertical-align: middle
+}
+
+#Cover
+{
+	max-width: 900px;
+	/*display: inline-block;*/
+	margin-bottom: 200px;
+}
+
+#CoverContainer
+{
+	margin: 30px 50px;
+}
+
+#squareTL, #squareBL
+{
+	float: left;
+}
+
+#squareTR, #squareBR
+{
+	float: right;
+}
+
+#IconContainer
+{
+	/*margin: auto;*/
+	/*display: inline-block;*/
+}
+
+#Icon_Instagram
+{
+	background: url(../img/Instagram.png) no-repeat 6px center;
+}
+
+#Icon_Twitter
+{
+	background: url(../img/Twitter.png) no-repeat 6px center;
+}
+
+#Logo_Home
+{
+	margin: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
