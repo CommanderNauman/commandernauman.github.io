@@ -1,140 +1,126 @@
-* { margin: 0; padding: 0; }
+/*
+	
+	PRIMARY COLOR: color: #e30f0f;
 
-canvas { width: 100%; height: 100%; }
+*/
 
-body 
-{
-	height:100vh;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-family: 'Roboto', sans-serif;
-	/*margin: 0 auto;*/
-	display: block;
-	background-color: black;
-	/*background: radial-gradient(ellipse at center, #003251 0%,#000000 100%);*/
-	color:#E30F0F;
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font: 16px Roboto, sans-serif; 
 	text-align: center;
 	margin: 30px;
 }
 
-a
-{
-    background-color: #E30F0F;
-    color: black;
-    font-family: Roboto-BoldCondensed;
-	font-size: 36px;    
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-    width:160px;
-    margin: 20px 20px;
+main {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-section
-{
-	width: 100%;
-	height: 100%;
-	/*height:100vh;*/
+.logo {
+	margin: 50px;
 }
 
-h1
-{
+h1, h2 {
 	font-weight: 300;
-	font-size: 87px;
-	color: #E30F0F;
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #e30f0f;
+	font-size: 1.9em;
+	padding: 40px 50px 0;
+	position: relative;
 	text-shadow: 0 0 16px rgba(255,0,0,0.81);
-	/*margin: 20px;*/
 }
 
-h2
-{
-	font-weight: 300;
-	font-size: 40px;
-	color: #FFFFFF;
+h1::before, h1::after, .primary-nav::before, .primary-nav::after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-color: #e30f0f;
+	position: absolute;
+}
+
+h1::before, h1::after {
+	top: 0;
+}
+
+.primary-nav::before, .primary-nav::after {
+	bottom: 0;
+}
+
+h1::before, .primary-nav::before {
+	left: 0;
+}
+
+h1::after, .primary-nav::after {
+	right: 0;
+}
+
+h2 {
 	margin: 30px;
 }
 
-.SquareRow
-{
-	width: 100%;
+
+.social-icons li, .primary-nav li {
+	display: inline;
+	list-style: none;
+	margin: 5px;
+}
+
+.social-icons a {
+}
+
+.social-icons a:hover, .social-icons a:focus {
+	color: #ccc;
+}
+
+.icon {
+	fill: #fff;
+	height: 2.5em;
+	width: 2.5em;
+}
+
+.primary-nav {
+	position: relative;
+	margin-top: 3.0em;
+	padding: 0 50px 80px;
+}
+
+.button {
+	background-color: #e30f0f;
+	color: #000;
 	display: inline-block;
+	font: 2.25em "Roboto Condensed", sans-serif;
+	margin: 0 20px 10px;
+	padding: 14px 25px;
+	text-decoration: none;
+	width: 160px;
 }
 
-.square 
-{
-	width: 20px;
-	height: 20px;
-	background: red;
+.button:hover, .button:focus {
+	background-color: #b00000;
 }
 
-.Icon
-{
-	width: 40px;
-	height: 40px;
-	/*margin: 10px 3px 10px 3px;*/
-	margin: auto;
-	float: center;
+@media (min-width: 501px) and (max-width: 899px) {
+	h1 {
+		font-size: 2.6em;
+	}
 }
 
-#Index
-{
-	display: inline-block;
-    vertical-align: middle
+@media (min-width: 900px) {
+	h1 {
+		font-size: 5.5em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
 }
-
-#Cover
-{
-	max-width: 900px;
-	/*display: inline-block;*/
-	margin-bottom: 200px;
-}
-
-#CoverContainer
-{
-	margin: 30px 50px;
-}
-
-#squareTL, #squareBL
-{
-	float: left;
-}
-
-#squareTR, #squareBR
-{
-	float: right;
-}
-
-#IconContainer
-{
-	/*margin: auto;*/
-	/*display: inline-block;*/
-}
-
-#Icon_Instagram
-{
-	background: url(../img/Instagram.png) no-repeat 6px center;
-}
-
-#Icon_Twitter
-{
-	background: url(../img/Twitter.png) no-repeat 6px center;
-}
-
-#Logo_Home
-{
-	margin: 70px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
