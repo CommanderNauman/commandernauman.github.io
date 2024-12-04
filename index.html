@@ -1,47 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Stephen Nauman</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Nauman</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2e2e2e; /* Dark gray background */
+            color: #ffffff; /* White text */
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #d3d3d3; /* Slightly lighter gray for contrast */
+        }
+
+        /* Section Styles */
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ffffff;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+
+        section p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d3d3d3; /* Lighter gray for hover effect */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.8rem;
+            color: #d3d3d3;
+        }
+    </style>
 </head>
 <body>
-	<main role="main">
-		<img class="logo" src="img/Logo.png" alt="" height="180" width="180">
-		<h1>STEPHEN NAUMAN</h1>
-		<h2>VR/AR/UX DEVELOPER</h2>
+    <header>
+        <h1>Hey!</h1>
+        <p>I'm Stephen Nauman. I'm an AI software engineer and game engine plugin developer. I have </p>
+    </header>
 
-		<ul class="social-icons">
-			<li><a href="https://twitter.com/StephenNauman/"><svg class="icon" role="img" aria-label="Twitter"><use xlink:href="#icon-twitter-square"></use></svg></a></li>
-			<li><a href="https://www.instagram.com/baconstripsnauman/"><svg class="icon" role="img" aria-label="Instagram"><use xlink:href="#icon-instagram-square"></use></svg></a></li>
-			<li><a href="https://github.com/StephenNauman/"><svg class="icon" role="img" aria-label="Github"><use xlink:href="#icon-github-square"></use></svg></a></li>
-		</ul>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-		<nav role="navigation">
-			<ul class="primary-nav">
-				<li><a href="resources/nauman-resume.pdf" class="button">RESUME</a></li>
-				<li><a href="pages/email.html" class="button">EMAIL</a></li>
-				<li><a href="resources/nauman-deck.pdf" class="button">DECK</a></li>
-			</ul>
-		</nav>
-	</main>
+    <section id="about">
+        <h2>About</h2>
+        <p>Welcome to my personal space on the web. I’m a developer and creator with a love for simplicity and impactful work.</p>
+    </section>
 
-	<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-	    <symbol id="icon-instagram-square" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-	        <path d="M29.2576,19.4908 C29.2576,18.3336 29.0352,17.2316 28.6476,16.2104 L40,16.2104 L40,30.0004 C40,35.524 35.5232,40 30.0004,40 L10,40 C4.4776,40 0,35.524 0,30.0004 L0,16.2104 L11.352,16.2104 C10.9652,17.232 10.7436,18.3336 10.7436,19.4908 C10.7436,24.6032 14.8876,28.7484 20,28.7484 C25.1128,28.7484 29.2576,24.6028 29.2576,19.4908 Z M20,25.046 C16.9317268,25.046 14.4444,22.5586732 14.4444,19.4904 C14.4444,16.4221268 16.9317268,13.9348 20,13.9348 C23.0682732,13.9348 25.5556,16.4221268 25.5556,19.4904 C25.5556,22.5586732 23.0682732,25.046 20,25.046 Z M30.0004,0.0008 C35.5232,0.0008 40,4.4784 40,10.0012 L40,12.9292 L26.528,12.9292 C24.854,11.264 22.5476,10.234 20,10.234 C17.4524,10.234 15.1456,11.264 13.4712,12.9292 L0,12.9292 L0,10.0012 C0,6.7476 1.56,3.8652 3.9668,2.0392 L3.9668,10.4288 L6.1532,10.4288 L6.1532,0.77 C6.8452,0.4816 7.5792,0.2764 8.34,0.15 L8.34,10.4284 L10.5268,10.4284 L10.5268,0.0008 L30.0004,0.0008 Z M34.468,9.458 L34.468,6.086 C34.468,5.4644 33.964,4.9616 33.3436,4.9616 L29.9724,4.9616 C29.3508,4.9616 28.848,5.4656 28.848,6.086 L28.848,9.458 C28.848,10.0792 29.3508,10.582 29.9724,10.582 L33.3436,10.582 C33.964,10.582 34.468,10.0776 34.468,9.458 Z"  fill="#FFFFFF" fill-rule="nonzero"></path>
-	    </symbol>
-	    <symbol id="icon-twitter-square" viewBox="0 0 40 40">
-	        <path d="M0,11.0095636 C0,4.9291495 4.9248284,0 11.0095636,0 L28.9904364,0 C35.0708505,0 40,4.9248284 40,11.0095636 L40,28.9904364 C40,35.0708505 35.0751716,40 28.9904364,40 L11.0095636,40 C4.9291495,40 0,35.0751716 0,28.9904364 L0,11.0095636 Z M35.625,10.3079244 C34.4752515,10.8181357 33.2400613,11.1624508 31.9431449,11.3175976 C33.2662146,10.5241325 34.2829802,9.26733266 34.7619406,7.7709418 C33.5232042,8.5056727 32.1507092,9.03860195 30.6900021,9.32628844 C29.5211926,8.08001638 27.8543619,7.30173356 26.0108855,7.30173356 C22.4698815,7.30173356 19.5990008,10.1726142 19.5990008,13.7131749 C19.5990008,14.2155181 19.6558511,14.704563 19.7653404,15.1744361 C14.436602,14.9063646 9.71293612,12.3545323 6.55071194,8.4749758 C5.9987218,9.42192536 5.68266561,10.5229135 5.68266561,11.6985938 C5.68266561,13.9229556 6.81412904,15.8850085 8.5345962,17.034757 C7.48414156,17.0012897 6.49574565,16.7131599 5.63069144,16.2330914 C5.63035898,16.2594663 5.63035898,16.2865062 5.63035898,16.3135461 C5.63035898,19.4196958 7.84053592,22.0107581 10.7731428,22.6007592 C10.2351159,22.7464864 9.66849765,22.8253896 9.08448077,22.8253896 C8.67079292,22.8253896 8.26951681,22.7840541 7.87843607,22.7100269 C8.69406494,25.2566507 11.0620483,27.1105441 13.8669916,27.1622967 C11.6733267,28.8822097 8.90872162,29.9072868 5.90419308,29.9072868 C5.38722179,29.9072868 4.87689964,29.8768115 4.37499976,29.8168584 C7.21296713,31.6367303 10.5828664,32.6982668 14.2033277,32.6982668 C25.9958141,32.6982668 32.4448232,22.9288947 32.4448232,14.4567714 C32.4448232,14.1781721 32.4383957,13.9018999 32.426538,13.626736 C33.6782402,12.7225626 34.7659301,11.5938697 35.625,10.3079244 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-	    </symbol>
-		<symbol id="icon-github-square" viewBox="0 0 40 40">
-	        <path d="M24.9596969,40 L32.0015401,40 C36.4150647,40 40,36.4189675 40,32.0015401 L40,7.99845994 C40,3.58493529 36.4189675,0 32.0015401,0 L7.99845994,0 C3.58493529,0 0,3.58103249 0,7.99845994 L0,32.0015401 C0,36.4150647 3.58103249,40 7.99845994,40 L15.041545,40 C15.0373893,39.2690743 15.0240223,36.9191844 15.0158077,35.4884257 C9.45271494,36.7271406 8.2789527,32.7390829 8.2789527,32.7390829 C7.36916419,30.3699149 6.05789005,29.7392277 6.05789005,29.7392277 C4.24199638,28.4677826 6.19540195,28.4929597 6.19540195,28.4929597 C8.20283004,28.6377282 9.25872495,30.6065799 9.25872495,30.6065799 C11.0426962,33.7398739 13.9402683,32.834756 15.0796525,32.3098129 C15.2613647,30.9854957 15.7782621,30.0816367 16.349182,29.5692821 C11.9082845,29.051892 7.239019,27.2920105 7.239019,19.4342278 C7.239019,17.1959808 8.01866233,15.3643445 9.29801406,13.9317657 C9.09174622,13.4131168 8.40541453,11.3271915 9.49445962,8.50483502 C9.49445962,8.50483502 11.1728414,7.95345584 14.9937076,10.6071255 C16.5886,10.1514194 18.300132,9.92482524 20.0006139,9.91601324 C21.699868,9.92482524 23.4101722,10.1514194 25.0075202,10.6071255 C28.8259308,7.95345584 30.501857,8.50483502 30.501857,8.50483502 C31.5933577,11.3271915 30.907026,13.4131168 30.7019859,13.9317657 C31.9837932,15.3643445 32.7572976,17.1959808 32.7572976,19.4342278 C32.7572976,27.3121522 28.0806655,29.0455978 23.6262623,29.552917 C24.3432886,30.1861218 24.9829645,31.4374252 24.9829645,33.3496284 C24.9829645,35.7108256 24.9647529,39.1035873 24.9596969,40 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
-	      </symbol>
-    </defs>
-  </svg>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Explore my thoughts, ideas, and projects. Coming soon!</p>
+    </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the things I’ve been working on. Stay tuned for updates.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let’s connect! You can find me on GitHub, Twitter, or send me an email.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Stephen Nauman. All rights reserved.</p>
+    </footer>
 </body>
 </html>
