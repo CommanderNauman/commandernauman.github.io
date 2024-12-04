@@ -1,126 +1,71 @@
-/*
-	
-	PRIMARY COLOR: color: #e30f0f;
-
-*/
-
-* { 
-	margin: 0; 
-	padding: 0; 
-}
-
 body {
-	background-color: #000;
-	color: #fff;
-	font: 16px Roboto, sans-serif; 
 	text-align: center;
-	margin: 30px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #2e2e2e; /* Dark gray background */
+	color: #ffffff; /* White text */
+	line-height: 1.6;
 }
 
-main {
-  max-width: 900px;
-  margin: 0 auto;
+/* Header Styles */
+header {
+	text-align: center;
+	padding: 2rem 1rem;
 }
 
-.logo {
-	margin: 50px;
+header h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
 }
 
-h1, h2 {
-	font-weight: 300;
-	text-transform: uppercase;
+header p {
+	font-size: 1.2rem;
+	color: #d3d3d3; /* Slightly lighter gray for contrast */
 }
 
-h1 {
-	color: #e30f0f;
-	font-size: 1.9em;
-	padding: 40px 50px 0;
-	position: relative;
-	text-shadow: 0 0 16px rgba(255,0,0,0.81);
+/* Section Styles */
+section {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1rem;
+	text-align: center;
 }
 
-h1::before, h1::after, .primary-nav::before, .primary-nav::after {
-	content: '';
-	width: 20px;
-	height: 20px;
-	display: block;
-	background-color: #e30f0f;
-	position: absolute;
-}
-
-h1::before, h1::after {
-	top: 0;
-}
-
-.primary-nav::before, .primary-nav::after {
-	bottom: 0;
-}
-
-h1::before, .primary-nav::before {
-	left: 0;
-}
-
-h1::after, .primary-nav::after {
-	right: 0;
-}
-
-h2 {
-	margin: 30px;
-}
-
-
-.social-icons li, .primary-nav li {
-	display: inline;
-	list-style: none;
-	margin: 5px;
-}
-
-.social-icons a {
-}
-
-.social-icons a:hover, .social-icons a:focus {
-	color: #ccc;
-}
-
-.icon {
-	fill: #fff;
-	height: 2.5em;
-	width: 2.5em;
-}
-
-.primary-nav {
-	position: relative;
-	margin-top: 3.0em;
-	padding: 0 50px 80px;
-}
-
-.button {
-	background-color: #e30f0f;
-	color: #000;
+section h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	border-bottom: 2px solid #ffffff;
 	display: inline-block;
-	font: 2.25em "Roboto Condensed", sans-serif;
-	margin: 0 20px 10px;
-	padding: 14px 25px;
+	padding-bottom: 0.5rem;
+}
+
+section p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav {
+	text-align: center;
+	padding: 1rem 0;
+}
+
+nav a {
+	margin: 0 1rem;
 	text-decoration: none;
-	width: 160px;
+	color: #ffffff;
+	font-weight: bold;
 }
 
-.button:hover, .button:focus {
-	background-color: #b00000;
+nav a:hover {
+	color: #d3d3d3; /* Lighter gray for hover effect */
 }
 
-@media (min-width: 501px) and (max-width: 899px) {
-	h1 {
-		font-size: 2.6em;
-	}
-}
-
-@media (min-width: 900px) {
-	h1 {
-		font-size: 5.5em;
-	}
-
-	h2 {
-		font-size: 2.5em;
-	}
+/* Footer */
+footer {
+	text-align: center;
+	padding: 1rem;
+	font-size: 0.8rem;
+	color: #d3d3d3;
 }
