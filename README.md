@@ -1,2 +1,2 @@
-# commandernauman.github.io
-Welcome to my portfolio's GitHub repository
+# stephennauman.github.io
+It's my blog where I muse about AI and other things
