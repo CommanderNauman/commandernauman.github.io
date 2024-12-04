@@ -3,12 +3,16 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-	background-color: #2e2e2e; /* Dark gray background */
-	color: #ffffff; /* White text */
+	background-color: #2e2e2e;
+	color: #ffffff;
 	line-height: 1.6;
+	min-height: 100vh;
 }
 
-/* Header Styles */
+body p {
+	margin: 2% 10%;
+}
+
 header {
 	text-align: center;
 	padding: 2rem 1rem;
@@ -21,10 +25,9 @@ header h1 {
 
 header p {
 	font-size: 1.2rem;
-	color: #d3d3d3; /* Slightly lighter gray for contrast */
+	color: #d3d3d3;
 }
 
-/* Section Styles */
 section {
 	max-width: 800px;
 	margin: 2rem auto;
@@ -45,7 +48,6 @@ section p {
 	margin-bottom: 1rem;
 }
 
-/* Navigation */
 nav {
 	text-align: center;
 	padding: 1rem 0;
@@ -59,13 +61,13 @@ nav a {
 }
 
 nav a:hover {
-	color: #d3d3d3; /* Lighter gray for hover effect */
+	color: #d3d3d3;
 }
 
-/* Footer */
 footer {
 	text-align: center;
-	padding: 1rem;
 	font-size: 0.8rem;
 	color: #d3d3d3;
+	margin-top: auto;
+	padding: 1rem 0;
 }
